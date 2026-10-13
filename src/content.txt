@@ -96,3 +96,4 @@ This gives you enough content to make the cards look like **real premium jewelry
 <576px        Small mobile
 npx http-server . -p 8081 -a 0.0.0.0
 npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+https://harshad5653.github.io/jwellary-card/
