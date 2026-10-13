@@ -1,0 +1,98 @@
+Yes. If you want a **complete promotional card** for your jewelry shop, you can use this structure:
+
+### 💎 Card 1 — New Arrivals
+
+```text
+NEW ARRIVALS
+
+Discover the Latest
+Jewelry Collection
+
+Explore our newest designs,
+crafted to make every moment shine.
+
+[ SHOP NEW ARRIVALS ]
+```
+
+### ✨ Card 2 — Exclusive Offers
+
+```text
+EXCLUSIVE OFFER
+
+Shine More, Save More
+
+Enjoy special offers on
+selected jewelry collections.
+
+UP TO 30% OFF
+
+[ SHOP OFFERS ]
+```
+
+### 💍 Card 3 — Trending Now
+
+```text
+TRENDING NOW
+
+Jewelry Everyone
+Is Loving
+
+Discover the latest styles
+and most-loved designs.
+
+[ EXPLORE TRENDING ]
+```
+
+### 👑 Card 4 — Bridal Collection
+
+```text
+BRIDAL COLLECTION
+
+Made for Your
+Special Day
+
+Elegant pieces designed
+for unforgettable moments.
+
+[ EXPLORE BRIDAL ]
+```
+
+### ⭐ Card 5 — Best Sellers
+
+```text
+BEST SELLERS
+
+Loved by
+Jewelry Lovers
+
+Discover our most popular
+and customer-favorite designs.
+
+[ SHOP BEST SELLERS ]
+```
+
+### 💎 Card 6 — Limited Edition
+
+```text
+LIMITED EDITION
+
+Rare Designs.
+Unique You.
+
+Exclusive jewelry collections
+available for a limited time.
+
+[ DISCOVER NOW ]
+```
+
+**For your website, I'd make each card have:**
+**small label → large heading → 1–2 line description → offer (if applicable) → CTA button → jewelry image.**
+
+This gives you enough content to make the cards look like **real premium jewelry-store promotional banners**, rather than just text over an image.
+1200px+       Desktop
+992–1199px    Laptop
+768–991px     Tablet
+576–767px     Mobile
+<576px        Small mobile
+npx http-server . -p 8081 -a 0.0.0.0
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch

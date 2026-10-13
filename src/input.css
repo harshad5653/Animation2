@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+  
+@theme {
+
+  --font-cormorant: "Cormorant Garamond", serif;
+   --color-buttontone: #78592a;
+   --color-firstheading:#ba8d4a;
+   --color-paragraph:#bbb3a9;
+   --animate-fade-in-up: fadeInUp 1s ease-out both;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
