@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Jewelry Carousel</title>
+
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body class="min-h-screen bg-[#061012] text-white">
+
+<main class="mx-auto flex min-h-screen w-full max-w-7xl flex-col items-center justify-center px-3 py-8 sm:px-6 lg:px-8">
+
+    <!-- Carousel -->
+    <section class="relative w-full max-w-5xl overflow-hidden rounded-2xl border border-amber-400/40 bg-[#071014] shadow-2xl">
+
+        <!-- Six-slide track -->
+        <div id="carouselTrack" class="flex w-[600%] transition-transform duration-700 ease-in-out">
+
+            <!-- CARD 1: NEW ARRIVALS -->
+            <article class="group relative h-[520px] w-1/6 shrink-0 overflow-hidden sm:h-[580px] lg:h-[620px]">
+                <img src="card1.jpg" alt="New jewelry collection"
+                    class="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-110">
+
+                <div class="absolute inset-0 bg-gradient-to-t from-black/95 via-black/45 to-black/10"></div>
+
+                <!-- Floating balloons -->
+                <div class="pointer-events-none absolute inset-0 z-[5] overflow-hidden">
+                    <i class="bi bi-balloon-heart balloon balloon-1 left-[10%] text-3xl text-pink-300"></i>
+                    <i class="bi bi-balloon-heart balloon balloon-2 left-[30%] text-4xl text-rose-400"></i>
+                    <i class="bi bi-balloon-heart balloon balloon-3 left-[50%] text-2xl text-pink-200"></i>
+                    <i class="bi bi-balloon-heart balloon balloon-4 left-[68%] text-3xl text-red-300"></i>
+                    <i class="bi bi-balloon-heart balloon balloon-5 left-[82%] text-4xl text-amber-200"></i>
+                    <i class="bi bi-balloon-heart balloon balloon-6 left-[92%] text-2xl text-rose-300"></i>
+                </div>
+
+                <div class="absolute left-5 right-5 top-7 z-10 flex items-center gap-3 border-b border-amber-300/60 pb-3 sm:left-8 sm:right-8">
+                    <i class="bi bi-gem text-2xl text-amber-300"></i>
+                    <h2 class="font-serif text-xl font-semibold italic text-amber-200 sm:text-3xl">New Arrivals</h2>
+                </div>
+
+                <div class="absolute inset-x-5 bottom-20 z-10 flex flex-col items-start gap-4 sm:inset-x-8 sm:bottom-24">
+                    <p class="text-xs font-semibold uppercase tracking-[3px] text-amber-300">A New Season of Elegance</p>
+                    <h1 class="max-w-xl font-serif text-3xl font-bold leading-tight text-rose-100 sm:text-5xl lg:text-6xl">
+                        Discover the
+                        <span class="block text-amber-300">Latest Jewelry</span>
+                        Collection
+                    </h1>
+                    <p class="max-w-md text-sm leading-relaxed text-amber-100 sm:text-base">
+                        Explore our newest designs, crafted to make every moment shine.
+                    </p>
+                    <a href="#new-arrivals" class="inline-flex items-center gap-3 rounded-full border border-amber-300 bg-amber-700/40 px-5 py-3 text-xs font-bold tracking-wide text-amber-50 transition-all duration-300 hover:scale-105 hover:bg-amber-300 hover:text-gray-950 sm:text-sm">
+                        SHOP NEW ARRIVALS <i class="bi bi-arrow-right text-lg"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- CARD 2: EXCLUSIVE OFFERS -->
+            <article class="group relative h-[520px] w-1/6 shrink-0 overflow-hidden sm:h-[580px] lg:h-[620px]">
+                <img src="card2.jpg" alt="Luxury jewelry special offers"
+                    class="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-110">
+
+                <div class="absolute inset-0 bg-gradient-to-t from-black/95 via-cyan-950/50 to-black/20"></div>
+
+                <div class="absolute left-4 right-4 top-8 z-10 flex items-center justify-center gap-3 sm:top-10">
+                    <span class="h-px w-6 bg-amber-400"></span>
+                    <h2 class="font-serif text-lg text-amber-300 sm:text-2xl">Exclusive Offers</h2>
+                    <span class="h-px w-6 bg-amber-400"></span>
+                </div>
+
+                <div class="absolute inset-x-5 bottom-20 z-10 flex flex-col items-start gap-4 sm:inset-x-8 sm:bottom-24">
+                    <p class="text-xs font-semibold uppercase tracking-[3px] text-amber-300">A Little More Luxury</p>
+                    <h2 class="font-serif text-4xl leading-tight text-amber-50 sm:text-6xl">
+                        Shine More
+                        <span class="block text-amber-300">Save More</span>
+                    </h2>
+                    <p class="max-w-sm text-sm leading-relaxed text-amber-100 sm:text-base">
+                        Enjoy special offers on selected jewelry collections.
+                    </p>
+
+                    <div class="flex items-center gap-3 rounded-2xl border border-amber-300/40 bg-black/60 p-3 sm:p-4">
+                        <i class="bi bi-gem text-3xl text-amber-300"></i>
+                        <div>
+                            <p class="text-xs text-amber-200">UP TO</p>
+                            <p class="text-xl font-bold text-amber-300 sm:text-2xl">30% OFF</p>
+                        </div>
+                    </div>
+
+                    <a href="#special-offers" class="inline-flex items-center gap-3 rounded-full border border-amber-300 px-6 py-3 text-sm font-bold text-amber-200 transition-all duration-300 hover:bg-amber-300 hover:text-black">
+                        SHOP OFFERS <i class="bi bi-arrow-right text-lg"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- CARD 3: TRENDING -->
+            <article class="group relative h-[520px] w-1/6 shrink-0 overflow-hidden sm:h-[580px] lg:h-[620px]">
+                <img src="card3.jpg" alt="Trending gemstone jewelry"
+                    class="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-110">
+
+                <div class="absolute inset-0 bg-gradient-to-t from-black/95 via-cyan-950/60 to-black/20"></div>
+
+                <div class="absolute left-5 right-5 top-7 z-10 flex items-center gap-3 border-b border-amber-300/50 pb-3 sm:left-8 sm:right-8">
+                    <i class="bi bi-stars text-2xl text-amber-300"></i>
+                    <h2 class="font-serif text-xl italic text-amber-200 sm:text-3xl">Curated For You</h2>
+                </div>
+
+                <div class="absolute inset-x-5 bottom-20 z-10 flex flex-col items-start gap-4 sm:inset-x-8 sm:bottom-24">
+                    <p class="text-xs font-semibold uppercase tracking-[3px] text-amber-300">The Style Edit</p>
+                    <h2 class="font-serif text-4xl leading-tight text-white sm:text-6xl">
+                        Trending Now
+                        <span class="block text-amber-300">Edition 2026</span>
+                    </h2>
+                    <p class="max-w-sm text-sm leading-relaxed text-amber-100 sm:text-base">
+                        Discover the latest styles and most-loved designs.
+                    </p>
+
+                    <div class="flex flex-wrap gap-2">
+                        <span class="rounded-full border border-amber-300/50 bg-black/50 px-3 py-2 text-xs text-amber-200">
+                            <i class="bi bi-heart-fill mr-1"></i> Most-liked
+                        </span>
+                        <span class="rounded-full border border-amber-300/50 bg-black/50 px-3 py-2 text-xs text-amber-200">
+                            <i class="bi bi-gem mr-1"></i> Most coveted
+                        </span>
+                    </div>
+
+                    <a href="#trending" class="inline-flex items-center gap-3 rounded-full bg-amber-300 px-5 py-3 text-xs font-bold text-gray-950 transition-all duration-300 hover:scale-105 hover:bg-amber-100 sm:text-sm">
+                        EXPLORE TRENDING <i class="bi bi-arrow-right text-lg"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- CARD 4: BRIDAL COLLECTION -->
+            <article class="group relative h-[520px] w-1/6 shrink-0 overflow-hidden sm:h-[580px] lg:h-[620px]">
+                <img src="card4.jpg" alt="Bridal gold jewelry collection"
+                    class="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-110">
+
+                <div class="absolute inset-0 bg-gradient-to-t from-black/95 via-[#25170e]/55 to-black/15"></div>
+                <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(197,155,85,0.2),transparent_55%)]"></div>
+
+                <div class="absolute left-5 right-5 top-7 z-10 flex items-center gap-3 border-b border-amber-300/50 pb-3 sm:left-8 sm:right-8">
+                    <i class="bi bi-gem text-2xl text-amber-300"></i>
+                    <h2 class="font-serif text-xl font-semibold italic text-amber-200 sm:text-3xl">Bridal Collection</h2>
+                </div>
+
+                <div class="absolute inset-x-5 bottom-20 z-10 flex flex-col items-start gap-4 sm:inset-x-8 sm:bottom-24">
+                    <p class="text-xs font-semibold uppercase tracking-[3px] text-amber-300">For Your Forever</p>
+                    <h2 class="font-serif text-4xl font-bold leading-tight text-rose-100 sm:text-5xl lg:text-6xl">
+                        Made for Your
+                        <span class="block text-amber-300">Special Day</span>
+                    </h2>
+                    <p class="max-w-sm text-sm leading-relaxed text-amber-100 sm:text-base">
+                        Elegant pieces designed for unforgettable moments.
+                    </p>
+                    <a href="#bridal" class="inline-flex items-center gap-3 rounded-full border border-amber-300 bg-amber-700/30 px-5 py-3 text-xs font-bold tracking-wide text-amber-50 transition-all duration-300 hover:scale-105 hover:bg-amber-300 hover:text-gray-950 sm:text-sm">
+                        EXPLORE BRIDAL <i class="bi bi-arrow-right text-lg"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- CARD 5: BEST SELLERS -->
+            <article class="group relative h-[520px] w-1/6 shrink-0 overflow-hidden sm:h-[580px] lg:h-[620px]">
+                <img src="card5.jpg" alt="Customer favorite gold and diamond jewelry"
+                    class="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-110">
+
+                <div class="absolute inset-0 bg-gradient-to-t from-black/95 via-[#20170e]/55 to-black/15"></div>
+                <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(197,155,85,0.2),transparent_55%)]"></div>
+
+                <div class="absolute left-5 right-5 top-7 z-10 flex items-center gap-3 border-b border-amber-300/50 pb-3 sm:left-8 sm:right-8">
+                    <i class="bi bi-stars text-2xl text-amber-300"></i>
+                    <h2 class="font-serif text-xl font-semibold italic text-amber-200 sm:text-3xl">Best Sellers</h2>
+                </div>
+
+                <div class="absolute inset-x-5 bottom-20 z-10 flex flex-col items-start gap-4 sm:inset-x-8 sm:bottom-24">
+                    <p class="text-xs font-semibold uppercase tracking-[3px] text-amber-300">Loved for a Reason</p>
+                    <h2 class="font-serif text-4xl font-bold leading-tight text-rose-100 sm:text-5xl lg:text-6xl">
+                        Loved by
+                        <span class="block text-amber-300">Jewelry Lovers</span>
+                    </h2>
+                    <p class="max-w-sm text-sm leading-relaxed text-amber-100 sm:text-base">
+                        Discover our most popular and customer-favorite designs.
+                    </p>
+                    <a href="#best-sellers" class="inline-flex items-center gap-3 rounded-full border border-amber-300 bg-amber-700/30 px-5 py-3 text-xs font-bold tracking-wide text-amber-50 transition-all duration-300 hover:scale-105 hover:bg-amber-300 hover:text-gray-950 sm:text-sm">
+                        SHOP BEST SELLERS <i class="bi bi-arrow-right text-lg"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- CARD 6: LIMITED EDITION -->
+            <article class="group relative h-[520px] w-1/6 shrink-0 overflow-hidden sm:h-[580px] lg:h-[620px]">
+                <img src="card6.jpg" alt="Exclusive limited-edition statement jewelry"
+                    class="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-110">
+
+                <div class="absolute inset-0 bg-gradient-to-t from-black/95 via-[#171225]/55 to-black/15"></div>
+                <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(197,155,85,0.2),transparent_55%)]"></div>
+
+                <div class="absolute left-5 right-5 top-7 z-10 flex items-center gap-3 border-b border-amber-300/50 pb-3 sm:left-8 sm:right-8">
+                    <i class="bi bi-gem text-2xl text-amber-300"></i>
+                    <h2 class="font-serif text-xl font-semibold italic text-amber-200 sm:text-3xl">Limited Edition</h2>
+                </div>
+
+                <div class="absolute inset-x-5 bottom-20 z-10 flex flex-col items-start gap-4 sm:inset-x-8 sm:bottom-24">
+                    <p class="text-xs font-semibold uppercase tracking-[3px] text-amber-300">Made to Stand Apart</p>
+                    <h2 class="font-serif text-4xl font-bold leading-tight text-rose-100 sm:text-5xl lg:text-6xl">
+                        Rare Designs.
+                        <span class="block text-amber-300">Unique You.</span>
+                    </h2>
+                    <p class="max-w-sm text-sm leading-relaxed text-amber-100 sm:text-base">
+                        Exclusive jewelry collections available for a limited time.
+                    </p>
+                    <a href="#limited-edition" class="inline-flex items-center gap-3 rounded-full border border-amber-300 bg-amber-700/30 px-5 py-3 text-xs font-bold tracking-wide text-amber-50 transition-all duration-300 hover:scale-105 hover:bg-amber-300 hover:text-gray-950 sm:text-sm">
+                        DISCOVER NOW <i class="bi bi-arrow-right text-lg"></i>
+                    </a>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- Previous / Counter / Next -->
+        <div class="absolute inset-x-4 bottom-14 z-20 flex items-center justify-between sm:inset-x-6">
+            <button type="button" data-slide="prev" aria-label="Previous poster"
+                class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-amber-300/70 bg-black/70 text-amber-200 transition hover:bg-amber-300 hover:text-black">
+                <i class="bi bi-chevron-left"></i>
+            </button>
+
+            <span id="slideCounter" class="text-xs font-bold tracking-[3px] text-amber-200">01 / 06</span>
+
+            <button type="button" data-slide="next" aria-label="Next poster"
+                class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-full border border-amber-300/70 bg-black/70 text-amber-200 transition hover:bg-amber-300 hover:text-black">
+                <i class="bi bi-chevron-right"></i>
+            </button>
+        </div>
+
+        <!-- Six indicators -->
+        <div id="posterIndicators" class="flex items-center justify-center gap-2 bg-[#071014] py-4">
+            <button type="button" data-go-to="0" aria-label="Go to poster 1" class="h-1 w-8 rounded-full bg-amber-300 transition-all"></button>
+            <button type="button" data-go-to="1" aria-label="Go to poster 2" class="h-1 w-5 rounded-full bg-gray-600 transition-all"></button>
+            <button type="button" data-go-to="2" aria-label="Go to poster 3" class="h-1 w-5 rounded-full bg-gray-600 transition-all"></button>
+            <button type="button" data-go-to="3" aria-label="Go to poster 4" class="h-1 w-5 rounded-full bg-gray-600 transition-all"></button>
+            <button type="button" data-go-to="4" aria-label="Go to poster 5" class="h-1 w-5 rounded-full bg-gray-600 transition-all"></button>
+            <button type="button" data-go-to="5" aria-label="Go to poster 6" class="h-1 w-5 rounded-full bg-gray-600 transition-all"></button>
+        </div>
+    </section>
+
+    <!-- Store benefits -->
+    <section class="mt-8 grid w-full max-w-4xl grid-cols-1 gap-5 text-center sm:grid-cols-3 sm:gap-4">
+        <div class="flex items-center justify-center gap-3">
+            <i class="bi bi-shield-check text-2xl text-amber-300"></i>
+            <div class="text-left">
+                <h3 class="text-sm font-semibold">Premium Quality</h3>
+                <p class="text-xs text-gray-400">Crafted with care</p>
+            </div>
+        </div>
+
+        <div class="flex items-center justify-center gap-3">
+            <i class="bi bi-gem text-2xl text-amber-300"></i>
+            <div class="text-left">
+                <h3 class="text-sm font-semibold">Elegant Designs</h3>
+                <p class="text-xs text-gray-400">Timeless collections</p>
+            </div>
+        </div>
+
+        <div class="flex items-center justify-center gap-3">
+            <i class="bi bi-gift text-2xl text-amber-300"></i>
+            <div class="text-left">
+                <h3 class="text-sm font-semibold">Beautiful Gifting</h3>
+                <p class="text-xs text-gray-400">Made for special moments</p>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<script src="./card.js"></script>
+</body>
+</html>
