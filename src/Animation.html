@@ -116,30 +116,113 @@
     </main>
 
     <!-- card2 -->
-    <main class="mx-auto flex min-h-screen w-full max-w-7xl items-center justify-center">
 
-        <div class="group relative mx-auto h-130 w-full max-w-sm overflow-hidden
-                    rounded-2xl shadow-2xl shadow-black/40 sm:h-[540px] sm:max-w-md lg:h-[560px] lg:max-w-lg xl:max-w-xl">
-                      <div class="text absolute top-19 left-3.5 flex gap-2 items-center z-10"><div class="h-px w-2.5 bg-amber-500 "></div>
-                    <h3 class="text-firstheading font-semibold">Exclusive Offers</h3>
-                     <div class="h-px w-2.5 bg-amber-500"></div></div>
-                     <div class="poster absolute z-20 bottom-52 pl-2.5 flex flex-col gap-3.5">
-                        <h5 class="text-amber-50 font-serif text-4xl ">Shine More</h5>
-                        <h4 class="text-amber-200 font-mono text-3xl font-extralight"> Save More</h4>
-                        <p class="text-center text-amber-50">Enjoy special offers on
-selected jewelry collections.
-</p>
-                        <div class="flex gap-3 bg-gray-800 p-2 rounded-2xl w-1/2 items-center"><i class="bi bi-gem text-firstheading"></i>
-                        <p class="text-yellow-300 font-bold">UP TO 30% OFF</p></div>
-                        <button class="border overflow-hidden absolute top-65 left-10 bg-cyan-950 p-1.5 rounded-2xl border-amber-50 w-1/2 text-amber-200 font-bold hover:text-pink-600 hover:border transform ease-linear duration-700 hover:border-pink-600 hover:p-2.5 "> SHOP OFFERS <i class="bi bi-arrow-bar-right"></i></button>
-                     </div>
-                  <img src="card2.jpg" alt="card2.jpg" class="object-cover transition-transform ease-linear duration-700 group-hover:scale-110">
-                  
-                  
+<main class="mx-auto flex min-h-screen w-full items-center justify-center px-3 py-8 sm:px-6 lg:px-8">
+
+    <div class="group relative mx-auto h-[480px] w-full max-w-sm overflow-hidden
+                rounded-2xl shadow-2xl shadow-black/40
+                sm:h-[520px] sm:max-w-md
+                lg:h-[560px] lg:max-w-lg
+                xl:max-w-xl">
+
+        <!-- Top heading -->
+        <div class="absolute left-3 top-12 z-10 flex items-center gap-2 sm:left-5 sm:top-16">
+            <div class="h-px w-5 bg-amber-500"></div>
+
+            <h3 class="text-firstheading text-sm font-semibold sm:text-base">
+                Exclusive Offers
+            </h3>
+
+            <div class="h-px w-5 bg-amber-500"></div>
         </div>
-    </main>
+
+        <!-- Poster content -->
+        <div class="poster absolute bottom-8 left-3 right-3 z-20
+                    flex flex-col items-start gap-3
+                    sm:bottom-10 sm:left-5 sm:right-5 sm:gap-4
+                    lg:bottom-12 lg:left-6">
+
+            <h5 class="font-serif text-3xl font-semibold text-amber-50
+                       sm:text-4xl lg:text-5xl">
+                Shine More
+            </h5>
+
+            <h4 class="font-mono text-2xl font-extralight text-amber-200
+                       sm:text-3xl lg:text-4xl">
+                Save More
+            </h4>
+
+            <p class="max-w-xs text-left text-sm leading-relaxed text-amber-50
+                      sm:text-base">
+                Enjoy special offers on selected jewelry collections.
+            </p>
+
+            <!-- Discount badge -->
+            <div class="flex w-fit max-w-full items-center gap-2 rounded-2xl
+                        bg-gray-800/90 p-2.5 sm:gap-3 sm:p-3">
+                <i class="bi bi-gem text-firstheading"></i>
+
+                <p class="text-sm font-bold text-yellow-300 sm:text-base">
+                    UP TO 30% OFF
+                </p>
+            </div>
+
+            <!-- Responsive button -->
+            <button class="mt-1 flex w-full max-w-[220px] items-center justify-center
+                           gap-2 rounded-2xl border border-amber-50 bg-cyan-950
+                           px-4 py-3 text-sm font-bold text-amber-200
+                           transition-all duration-500 ease-in-out
+                           hover:border-pink-600 hover:text-pink-400
+                           sm:max-w-[240px] sm:text-base">
+                SHOP OFFERS
+                <i class="bi bi-arrow-bar-right"></i>
+            </button>
+
+        </div>
+
+        <!-- Background image -->
+        <img
+            src="card2.jpg"
+            alt="Jewelry special offers"
+            class="absolute inset-0 h-full w-full object-cover
+                   transition-transform duration-700 ease-linear
+                   group-hover:scale-110"
+        />
+
+        <!-- Dark overlay for readable text -->
+        <div class="pointer-events-none absolute inset-0 z-[5]
+                    bg-gradient-to-t from-black/85 via-black/25 to-black/10">
+        </div>
+
+    </div>
+
+</main>
+
+<!-- card2 end -->
+
+<!-- card3 start -->
+ <div>
+    <div class="bg-cyan-950 w-2xs lg:w-full md:w-[90%] h-auto flex flex-col ">
+        <h2 class="">Trending Now
+ Edition<br>2026</h2>
+        <p>Discover the latest styles
+and most-loved designs.<span><p>Most-liked</p></span></p>
+        <div>
+            <h2>STATUS
+                <p>Carture Pick</p>
+            </h2>
+            <h2>ACQUISITION
+                <p>Most Coveted</p>
+            </h2>
+            <button>[ EXPLORE TREDING] <i class="bi bi-arrow-bar-right"></i> </button>
+            <p></p>
+        </div>
+    </div>
+ </div>
+
 
 
 </body>
+
 
 </html>
